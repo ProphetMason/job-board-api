@@ -7,13 +7,13 @@ A production-ready RESTful API for a job board platform built with Node.js, Expr
 - **Runtime:** Node.js
 - **Framework:** Express.js
 - **Language:** TypeScript
-- **Database:** MongoDB (Mongoose ODM) — hosted on MongoDB Atlas
+- **Database:** MongoDB (Mongoose ODM), hosted on MongoDB Atlas
 - **Auth:** JWT + bcryptjs
 - **Containerization:** Docker, Docker Compose
 
 ## Features
 
-- Role-based access control — recruiters post jobs and view applicants; candidates apply and track applications
+- Role-based access control: recruiters post jobs and view applicants; candidates apply and track applications
 - Full-text job search using MongoDB text indexes on title, description, and skills
 - Dynamic filtering by job type, location, and skills with pagination
 - Duplicate application prevention via compound unique index on (job, candidate)
